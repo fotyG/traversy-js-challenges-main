@@ -9,4 +9,12 @@ list.append(400);
 list.prepend(100);
 
 list.insertAt(2, "New");
-list.printAll();
+
+// console.log(list.get(2).data);
+
+list.remove(3);
+
+console.log(list.contains(200));
+console.log(list.contains(500));
+
+// list.printAll();
